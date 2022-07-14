@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+section {
+    margin: 80px 0;
+}
+
+.container {
+    width: 1150px;
+    margin: auto;
+}
+
+p {
+    counter-reset: #949494;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.slider {
+    background-image: url(https://c8.alamy.com/zooms/9/e21116280a484c50a1a48c7220ff31fc/j0hd28.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+}
+
+.slideText {
+    width: 500px;
+    color: #fff;
+    padding: 100px 0;
+}
+
+.slideText h1 {
+    font-size: 60px;
+    margin-bottom: 0px;
+}
+
+
+
+.slideText p {
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+a {
+    background-color: #EF233C;
+    color: #fff;
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 7px;
+}
+
+/* slide part shas */
+.thereLiveContent {
+    display: flex;
+}
+
+.thereLiveText {
+    margin-right: 50px;
+    width: 50%;
+}
+
+.thereLiveText h1 {
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+.thereLiveText p {}
+
+.thereLiveVideo {
+    width: 50%;
+    margin-left: 50px;
+}
+
+.thereLiveVideo video {
+    width: 100%;
+}
+
+/* htere need Shuru */
+.thereNeedContainer {
+    display: flex;
+}
+
+.thereNeedImage {
+    width: 50%;
+    margin-right: 50px;
+}
+
+.thereNeedImage img {
+    width: 100%;
+}
+
+.thereneedText {
+    width: 50%;
+    margin-left: 50px;
+}
+
+.thereneedText h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+
+.thereneedText a {}
